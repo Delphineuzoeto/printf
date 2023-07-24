@@ -22,9 +22,13 @@ Our custom _printf function has been optimized to handle various inputs and opti
 
  Installation
 
+
  a. create a repo with the name printf
+
  b. on your sandbox, git clone git clone https://github.com/your-username/printf-team-project.git
+
  c. Include the _printf function in your project source file
+
  d. Compile your project, linking with the printf.c file containing the _printf implementation gcc -Wall -Werror -Wextra -pedantic main.c printf.c -o my_program
 
 Usage
@@ -33,7 +37,13 @@ Usage
 
 Supported Conversion Specifiers
 
- Our _printf function supports the following conversion specifiers: a. %c: Character b. %s: String c. %%: Percent sign
+ Our _printf function supports the following conversion specifiers:
+
+ a. %c: Character 
+
+b. %s: String 
+
+c. %%: Percent sign
 
 Contributing
 
